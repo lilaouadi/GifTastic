@@ -16,7 +16,7 @@ $(document).on("click", ".topic", function(button){
                         // console.log(x);
 
                         // var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=4J5mUtMTin61t5UZ493t9arlmiHdq25T&q=" + search + "&limit=25&offset=0&rating=G&lang=en";
-                        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=4J5mUtMTin61t5UZ493t9arlmiHdq25T&limit=10";
+                        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=4J5mUtMTin61t5UZ493t9arlmiHdq25T&limit=10";
                         console.log(queryURL);
 
                         $.ajax({
